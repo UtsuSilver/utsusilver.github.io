@@ -1,0 +1,162 @@
+body{
+	font-family: 'Inter', sans-serif;
+}
+
+*,*::before, *::after{
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+	max-width: 1391px;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    right:100px;
+    left:100px;
+    top:120px;
+	bottom:0px;
+}
+
+.text1{
+    display: block;
+    width: 218px;
+    height: 50px;
+    flex-direction: column;
+    color: #fcfcfc;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:absolute;
+    left: 1100px;
+    top: 220px;
+}
+
+.text2{
+    display: block;
+    width: 400px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #fcfcfc;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    left: 1100px;
+    top: 310px;
+}
+
+.text3{
+    display: block;
+    width: 400px;
+    flex-direction: column;
+    color: #fcfcfc;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:absolute;
+    left: 1100px;
+    top: 400px;
+}
+
+.text4{
+    width: 400px;
+    display: block;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #fcfcfc;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    left: 1100px;
+    top: 430px;
+}
+
+.text5{
+    display: block;
+    width: 400px;
+    flex-direction: column;
+    color: #fcfcfc;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:absolute;
+    left: 1100px;
+    top: 780px;
+}
+
+.text6{
+    display: block;
+    width: 400px;
+    flex-direction: column;
+    color: #fcfcfc;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:absolute;
+    left: 1100px;
+    top: 830px;
+}
+
+.text7{
+    display: block;
+    width: 400px;
+    flex-direction: column;
+    color: #fcfcfc;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:absolute;
+    left: 1100px;
+    top: 1100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+
+background-color: black;    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.discord{
+    max-width: 70px;
+    position: absolute;
+    left: 1100px;
+    top: 1150px;
+}
+
+.git{
+    max-width: 70px;
+    position: absolute;
+    left: 1200px;
+    top: 1150px;
+}
+
+.linked{
+    max-width: 70px;
+    position: absolute;
+    left: 1300px;
+    top: 1150px;
+}
