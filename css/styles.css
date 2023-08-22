@@ -149,10 +149,6 @@ body{
         background-color: black;
     }
 
-    body{
-        border: 3px red solid;
-    }
-
 *{
     max-height: 80%;
     max-width: 100%;
