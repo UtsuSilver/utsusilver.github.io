@@ -13,7 +13,7 @@
 body{
 	font-family: 'Inter', sans-serif;
     min-height: 100vh;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/plant.jpg);
     background-size: cover;
     background-repeat: repeat;
 
@@ -38,7 +38,7 @@ body{
     top: 5rem;
     width: 1200px;
     height: 800px;
-    margin: 10px auto;
+    margin-right:auto;
 }
 
 
@@ -63,32 +63,31 @@ body{
     padding-left: 61%;
     padding-top: 8%;
     padding-right: 10%;
-    padding-bottom: 0%;
 
     z-index: 3;
 }
 
-.bottomtext{
-    position: relative;
-    padding-left: 0%;
-    padding-top: 35%;
-    padding-right: 10%;
-    padding-bottom: 0%;
+.text2{
+    position: absolute;
+    padding-left: 61%;
+    padding-top: 10%;
+    padding-right: 0%;
     font-size: 20px;
 
     color: #fcfcfc;
+    font-family: Inter;
 
-    z-index: 3;
+    z-index: 4;
 }
 
 .backs{
     position: absolute;
     padding-left: 0%;
-    padding-top: 35%;
+    padding-top: 7%;
     padding-right: 10%;
     padding-bottom: 0%;
     max-width: 600px;
-    top: 60%;
+    top: 102%;
     left: 61%;
     display: flex;
     justify-content: space-between;
@@ -98,38 +97,71 @@ body{
     z-index: 10;
 }
 
-@media (min-width: 475px) {
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
     .container{
-        max-width: 475px;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        margin-right: -10%;
+        margin-top: -25%;
     }
+    .text1{
+        font-size: 12.7px;
+        position: relative;
+        padding-left: 40%;
+        padding-top: 20%;
+        padding-right: 10%;
+
+        width: 100%;
+        min-height: 92%;
+        overflow: auto;
+        
+    
+        z-index: 3;
+
+
+    }
+
+    .text2{
+        position: relative;
+        top: -5%;
+        right: 20%;
+        font-size: 16.5px;
+
+        width: 120%;
+    }
+
+    .backs{
+        position: relative;
+        left: 0%;
+
+        width: 120%;
+        display: inline-flex;
+        
+    }
+    
+    .utsu {
+        content: url(../images/mobilenoline.png);
+    }
+
+    .background{
+        background-color: black;
+    }
+
+    body{
+        border: 3px red solid;
+    }
+
+*{
+    max-height: 80%;
+    max-width: 100%;
 }
 
-@media (min-width: 640px) {
-    .container{
-        max-width: 640px;
-    }
-}
 
-@media (min-width: 768px) {
-    .container{
-        max-width: 768px;
-    }
-}
 
-@media (min-width: 1024px) {
-    .container{
-        max-width: 1024px;
-    }
-}
 
-@media (min-width: 1280px) {
-    .container{
-        max-width: 1280px;
-    }
-}
 
-@media (min-width: 1536px) {
-    .container{
-        max-width: 1536px;
-    }
+
+
 }
